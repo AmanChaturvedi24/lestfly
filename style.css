@@ -4,6 +4,8 @@
     --primary-color: #0d9488;
     --secondary-color: #14b8a6
     ;
+    --my-gray:#8e8e94;
+    --off-white: #e5e7eb;
 }
 
 body{
@@ -21,6 +23,7 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+    
 }
 
 .link{
@@ -69,6 +72,7 @@ hr{
 }
 .navigation .nav-pills{
     text-align: right;
+    
 }
 
 .navigation .link{
@@ -81,4 +85,47 @@ hr{
 }
 
 /* header */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding: 1rem;
+    color: var(--my-gray);
+    text-align: center;
+}
 
+section{
+    padding: 2rem;
+}
+
+.section h3{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow
+{
+    background-color: var(--off-white);
+}
+
+
+/* footer */
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;  
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; 
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start: 0px ;
+}
