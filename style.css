@@ -57,6 +57,16 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+.ow .list-non-bullet{
+    text-align: center;
+}
+.ow .list-item-inline{
+    display: inline-block;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
 /* navigation */
 .navigation{
     background-color: var(--primary-color);
