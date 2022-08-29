@@ -30,6 +30,7 @@ body{
     text-decoration: none;
     /*padding: top/bottom right/left; */
     padding: 0.5rem 1rem;
+    color: var(--primary-color);
 }
 
 .primary-link{
@@ -64,6 +65,23 @@ hr{
     display: inline-block;
     margin-bottom: 1rem;
     background-color: white;
+    border-radius: 0.5rem;
+}
+.certificate{
+    background-color: var(--off-white);
+
+}
+.certificate .list-item-inline{
+   text-align: none;
+    
+}
+.certificate .link{
+    color: white;
+}
+.certificate .list-item-inline{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background-color:var(--secondary-color);
     border-radius: 0.5rem;
 }
 
@@ -139,3 +157,6 @@ footer{
 .footer ul{
     padding-inline-start: 0px ;
 }
+/* .footer header{
+    padding-inline-start: 0px;
+/* } */ */
